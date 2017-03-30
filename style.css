@@ -1,0 +1,36 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+}
+
+header,footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer{
+	text-align: center;
+}
+
+content{
+	display: inline-block;
+	background: #777;
+	width: 100%;
+	height: 200px;
+}
+
+.item{
+	display: inline-block;
+	line-height: 30px;
+	padding: 10px;
+}
+
+.center{
+	padding-left: calc(50vw - 75px);
+}
+
+.fl_right{
+	float: right;
+}
